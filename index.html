@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="assets/style.css"/>
+</head>
+
+<body>
+    <header>
+        <h1>Weather Dashboard</h1>
+    </header>
+
+    <!-- Main content container -->
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Sidebar for search functionality -->
+            <aside class="col-lg-3">
+                <!-- Subheading for search section -->
+                <h2>Search for a City:</h2>
+                <!-- Form for inputting city name to search -->
+                <form>
+                    <!-- Input field for city search -->
+                    <input class="form-control" type="text" id="search-value" />
+                    <!-- Button to trigger the city search -->
+                    <button class="btn btn-primary" id="search-button">Search</button>
+                </form>
+                <!-- List to display search history -->
+                <ul class="history-list"></ul>
+            </aside>
+
+            <!-- Main section for displaying weather information -->
+            <main class="col-lg-9">
+                <!-- Container for today's weather information -->
+                <div id="today" class="today-container" style="display: none;"></div>
+                <!-- Container for forecast weather information -->
+                <div id="forecast" class="forecast-container"></div>
+            </main>
+            
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="assets/script.js"></script>    
+</body>
+</html>
+
+<!-- Use bootstrap for design -->
+<!-- Header -->
+<!-- Read weather API documentation -->
+<!-- Dynamically add city results & 5 day forecast/hide classes -->
+<!-- Use bootstrap to design search results -->
+<!-- Use local storage to store previous search history -->
+<!-- Clear search history button -->
+<!-- Add placeholder class to search bar -->
+<!-- Add error if user attempts to hit search without including a value -->
