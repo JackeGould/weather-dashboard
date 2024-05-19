@@ -1,4 +1,4 @@
-# Horiseon Refactor
+# Weather Dashboard
 
 ## User Story
 
