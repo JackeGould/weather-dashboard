@@ -22,6 +22,6 @@ THEN I am again presented with current and future conditions for that city
 
 The following image demonstrates the web application's appearance and functionality:
 
-![The Weather Dashboard webpage includes a city search bar, the current forecast for a selected city, and a five day forecast.]()
+![The Weather Dashboard webpage includes a city search bar, the current forecast for a selected city, and a five day forecast.](/assets/Weather.png)
 
 ## Deployment
