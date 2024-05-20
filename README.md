@@ -25,3 +25,7 @@ The following image demonstrates the web application's appearance and functional
 ![The Weather Dashboard webpage includes a city search bar, the current forecast for a selected city, and a five day forecast.](/assets/Weather.png)
 
 ## Deployment
+
+https://github.com/JackeGould/weather-dashboard
+
+https://jackegould.github.io/weather-dashboard/
